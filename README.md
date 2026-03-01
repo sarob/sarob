@@ -1,2 +1,3 @@
 [![GitHub Streak](https://github-readme-streak-stats-nine-iota.vercel.app?user=sarob&theme=transparent&mode=weekly)](https://git.io/streak-stats)
-[![sarob's Contribution Graph](https://activity-graph.herokuapp.com/graph?username=sarob&theme=github)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+[![sarob's Contribution Calendar](https://github-contributions.vercel.app/api?username=sarob&theme=github)](https://github.com/sarob/sarob)
