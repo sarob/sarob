@@ -2,7 +2,6 @@
 
 [![sarob's GitHub Stats](https://github-readme-stats-salesp07.vercel.app/api?username=sarob&show_icons=true&theme=transparent&hide_border=true)](https://github.com/sarob)
 
-[![Top Languages](https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=sarob&layout=compact&theme=transparent&hide_border=true)](https://github.com/sarob)
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=sarob&theme=flat&no-frame=true&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
