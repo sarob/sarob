@@ -5,7 +5,7 @@
 <!-- log:start -->
 ### The Log · Week of 8 Nov 2026
 
-**Built** · Hallow: four pull requests toward its first PyPI release, 0.3.0: a schema fix for Typer 0.29, a star-import fix that clears fifteen false findings on httpx, the Trusted Publishing workflow, and the version bump. dMedia: the Log, this page, and the Friday job that drafts each week's entry from GitHub.
+**Built** · Hallow: five pull requests toward its first PyPI release, 0.3.0: a schema fix for Typer 0.29, a star-import fix that clears fifteen false findings on httpx, the Trusted Publishing workflow, README links that work on PyPI, and the version bump. dMedia: the Log, this page, the Friday job that drafts each week's entry from GitHub, and the GitHub profile README that mirrors it.
 
 **259 contributions** on GitHub this week, on 6 of 6 days so far. Public and private together; private work is counted, not named.
 
