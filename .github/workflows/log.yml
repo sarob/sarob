@@ -1,0 +1,33 @@
+name: The Log
+
+# Mirrors the latest entry of the Log (dmedia.ai/log) into README.md, between its log:start and
+# log:end markers. Runs daily and by hand, and commits only when the block changed.
+
+on:
+  schedule:
+    - cron: "30 23 * * *" # daily, 23:30 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - run: node scripts/render-readme.mjs
+
+      - name: Commit when the block changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "README.md is current"
+          else
+            git commit -m "log: $(date -u +%Y-%m-%d)"
+            git push
+          fi
