@@ -14,4 +14,4 @@
 <sub>From [dmedia.ai/log](https://dmedia.ai/log), counts as of 13 Nov 2026.</sub>
 <!-- log:end -->
 
-Every Friday I write down what shipped, what I built, where I served and one thing I said, with the week's GitHub count. The record is at [dmedia.ai/log](https://dmedia.ai/log); this block follows it.
+Every month I write down what shipped, what I built, where I served and one thing I said, with the month's GitHub count, public and private together. The record is at [dmedia.ai/log](https://dmedia.ai/log); this block follows it.
